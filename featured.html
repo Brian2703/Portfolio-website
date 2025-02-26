@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive car website - Bedimcode</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-steering-line"></i>
+                    Brian Ong
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <li class="nav__item">
+                            <a href="index.html#projects" class="nav__link"> Back to Projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Featured Projects</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">            
+            <!--==================== FEATURED ====================-->
+            <section class="featured section" id="featured">
+                <h2 class="section__title">
+                    Featured Projects
+                </h2>
+
+                <div class="featured__container container">
+                    <ul class="featured__filters">
+                        <li>
+                            <button class="featured__item active-featured" data-filter="all">
+                                <span>All</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".sql">
+                                <!-- <img src="assets/img/logo3.png" alt=""> -->
+                                <span>SQL</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".python">
+                                <span>Python</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".powerBI">
+                                <span>PowerBI</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".tableau">
+                                <span>Tableau</span>
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="featured__content grid">
+                        <article class="featured__card mix powerBI sql">
+                            <div class="shape shape__smaller"></div>
+                            
+                            <h1 class="popular__title">Electronic Retailer</h1>
+                            <h3 class="popular__subtitle">Customer Analysis</h3>
+
+                            <img src="assets/img/popular2.png" alt="" class="popular__img">
+
+                            <h3 class="popular__price">Github</h3>
+                            <a href="https://github.com/Brian2703/Global_Electronic_Retailer_Customer_Analysis" target="_blank">
+                                <button class="button popular__button">
+                                    <i class="ri-github-fill"></i>
+                                </button>
+                            </a>
+                        </article>
+
+
+                        <article class="featured__card mix powerBI">
+                            <div class="shape shape__smaller"></div>
+                            
+                            <h1 class="popular__title">Call & Churn Rate</h1>
+                            <h3 class="popular__subtitle">Analysis (PwC)</h3>
+
+                            <img src="assets/img/popular3.png" alt="" class="popular__img">
+                            <h3 class="popular__price">Github</h3>
+                            <a href="https://github.com/Brian2703/PwC_Call_Centre_-_Customer_Churn" target="_blank">
+                                <button class="button popular__button">
+                                    <i class="ri-github-fill"></i>
+                                </button>
+                            </a>
+                        </article>
+                 
+                        <article class="featured__card mix python ">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="popular__title">Housing price</h1>
+                            <h3 class="popular__subtitle">Analysis and Prediction</h3>
+
+                            <img src="assets/img/popular1.png" alt="" class="popular__img">
+                            <h3 class="popular__price">Github</h3>
+                            <a href="https://github.com/Brian2703/House_Analysis_And_Prediction" target="_blank">
+                                <button class="button popular__button">
+                                    <i class="ri-github-fill"></i>
+                                </button>
+                            </a>
+                        </article>
+
+                        <article class="featured__card mix tableau">
+                            <div class="shape shape__smaller"></div>
+                            
+                            <h1 class="popular__title">Payroll-Employee</h1>
+                            <h3 class="popular__subtitle">Dashboard</h3>
+                            <img src="assets/img/popular4.png" alt="" class="popular__img">
+                            <h3 class="popular__price">Github</h3>
+                            <a href="https://github.com/Brian2703/Payroll_Remediation_and_Employee_Dashboard" target="_blank">
+                                <button class="button popular__button">
+                                    <i class="ri-github-fill"></i>
+                                </button>
+                            </a>
+                        </article>
+
+                        <article class="featured__card mix tableau">
+                            <div class="shape shape__smaller"></div>
+                            
+                            <h1 class="popular__title">QLD Incidents</h1>
+                            <h3 class="popular__subtitle">Analysis</h3>
+
+                            <img src="assets/img/popular5.png" alt="" class="popular__img">
+                            <h3 class="popular__price">Github</h3>
+                            <a href="https://public.tableau.com/app/profile/brian.ong1771/viz/Story_17272414319140/StoryTellingaboutQueenslandIncidentsdata?publish=yes" target="_blank">
+                                <button class="button popular__button">
+                                    <i class="ri-github-fill"></i>
+                                </button>
+                            </a>
+                        </article>
+
+                        <article class="featured__card mix sql">
+                            <div class="shape shape__smaller"></div>
+                            
+                            <h1 class="popular__title">Sales SQL </h1>
+                            <h3 class="popular__subtitle">Analysis</h3>
+
+                            <img src="assets/img/popular6.png" alt="" class="popular__img">
+                            <h3 class="popular__price">Github</h3>
+                            <a href="https://github.com/Brian2703/Retail_Sales_Analysis" target="_blank">
+                                <button class="button popular__button">
+                                    <i class="ri-github-fill"></i>
+                                </button>
+                            </a>
+                        </article>
+
+                        <article class="featured__card mix python">
+                            <div class="shape shape__smaller"></div>
+                            
+                            <h1 class="popular__title">Flower </h1>
+                            <h3 class="popular__subtitle">Classification</h3>
+
+                            <img src="assets/img/popular7.png" alt="" class="popular__img">
+                            <h3 class="popular__price">Github</h3>
+                            <a href="https://github.com/Brian2703/Flower_classification" target="_blank">
+                                <button class="button popular__button">
+                                    <i class="ri-github-fill"></i>
+                                </button>
+                            </a>
+                        </article>
+
+                        <article class="featured__card mix python">
+                            <div class="shape shape__smaller"></div>
+                            
+                            <h1 class="popular__title">Spam Email </h1>
+                            <h3 class="popular__subtitle">Classification</h3>
+
+                            <img src="assets/img/popular8.png" alt="" class="popular__img">
+                            <h3 class="popular__price">Github</h3>
+                            <a href="https://github.com/Brian2703/Spam_email_classification" target="_blank">
+                                <button class="button popular__button">
+                                    <i class="ri-github-fill"></i>
+                                </button>
+                            </a>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="assets/files/BRIAN ONG CV.docx (2).pdf" class="footer__logo" download>
+                        <i class="ri-steering-line"></i> Download CV
+                    </a>
+                    <br>
+                </div>
+
+                <div class="footer__content"  id="certificates">
+                    <h3 class="footer__title">
+                        Certificates
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Actuarial Job Simulation</a>    
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Data Science Job Simulation</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Power BI Job Simulation</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Contact
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="mailto:brianong470@gmail.com" class="footer__link">Email</a>
+                        </li>
+                        <li>
+                            <a href="tel:0421872012" class="footer__link">Phone</a>
+                        </li>
+                    </ul>
+
+                    
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Follow me
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="https://www.linkedin.com/in/brian-ong470/" class="footer__link">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Brian2703" class="footer__link">GitHub</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__copy">
+                &#169; Brian Ong
+            </span>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MIXITUP JS ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
