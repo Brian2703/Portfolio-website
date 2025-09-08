@@ -23,7 +23,6 @@
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">
-                    <i class="ri-steering-line"></i>
                     Brian Ong
                 </a>
 
@@ -84,7 +83,7 @@
                         </h2>
 
                         <h3 class="home__elec">
-                            <i class="ri-flashlight-fill"></i> Data Storyteller & Analyst
+                            <i class="ri-flashlight-fill"></i> Data Analyst & AI Enthusiast
                             <!-- Python | SQL | Power BI | Tableau | ML/AI -->
                         </h3>
                     </div>
@@ -138,7 +137,35 @@
                 <article id="experience" class="container grid">
                     <div class="container">
                        
-                        <div class="col-12">
+                            <div class="col-12">
+                                <article class="box style2 flex-container">
+                                    <div class="image-container">
+                                        <a href="#" class="image featured">
+                                            <img src="assets/img/joincitro_logo.jpeg" alt="Citro" />
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="about__card-title">Data Analyst</h3>
+                                        <h5><span class="icon solid fa-map-marker-alt"></span>Citro, Backed by AMP, Sydney</h5>
+                                        <p class="about__card-description">May 2025 - present</p>
+                                        <ul class="about__description">
+                                            <li>Collaborate with Growth and Operations teams to fulfill ad-hoc reporting requests and reconcile data discrepancies across analytics platforms, including Mixpanel, Databricks, and Braze.</li>
+                                            <li>Contribute to quarterly business reviews for AMP by delivering key data-driven analyses on customer demographics, user behaviour, by multiple interactive Dashboard (for both AMP Rewards and Citro Data)</li>
+                                            <li>Develop and maintain a self-service BI tool using Databricks Dash App (Python app), enabling the Operations and Growth teams to access customer and transaction insights with a one-day turnaround. Provide expert support by troubleshooting complex issues such as fraud case analysis and manual cashback events.</li>
+                                            <li>Engineer and optimize data pipelines with Delta Live Tables, leveraging the Change Data Feed (CDF) feature to capture historical changes. This accelerated implementation time by over 3x compared to building manual backend tracking logic.</li>
+                                            <li>Automate data ingestion from disparate platforms into Databricks using Fivetran, reducing the time spent on manual marketing reporting by 50% and establishing robust scheduling and documentation.</li>
+                                            <li>Manage version control for all Databricks jobs and pipelines (using Databricks Bundle Assets and Git), enhancing code integrity and collaboration between the R&D team and Growth CRM Specialists.</li>
+                                            <li>Assist R&D Engineer to implement an Aircall AI service, developing a proof-of-concept that leverages Large Language Models (LLMs) to answer key business questions and support customer-driven development. Apply AI Query to automatically extract insights for the Call Agent Performance Dashboard.</li>
+                                            <li>Support the Growth team by maintaining the Offer Recommendation Machine Learning Model’s endpoint to ensure its stability and performance.</li>
+
+                                        </ul>                          
+                                    </div>
+                                </article>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-12">
                                 <article class="box style2 flex-container">
                                     <div class="image-container">
                                         <a href="#" class="image featured">
@@ -147,7 +174,7 @@
                                     </div>
                                     <div class="content">
                                         <h3 class="about__card-title">Data Science And AI Intern</h3>
-                                        <h5><span class="icon solid fa-map-marker-alt"></span> Sydney</h5>
+                                        <h5><span class="icon solid fa-map-marker-alt"></span>Oscrop Energy, Sydney</h5>
                                         <p class="about__card-description">November 2024 - present</p>
                                         <ul class="about__description">
                                             <li>Researched lithium battery recycling to understand the project's mission, particularly how Computer Vision contributes to emerging green energy solutions.</li>
@@ -159,31 +186,6 @@
                                     </div>
                                 </article>
                             </div>
-                       
-                        <div class="row aln-center" style="margin-top: 20px;">
-                            <div class="col-12">
-                                <article class="box style2 flex-container">
-                                    <div class="image-container">
-                                        <a href="#" class="image featured">
-                                            <img src="assets\img\PTE-master.png" alt="PTE Master" />
-                                        </a>
-                                    </div>
-                                    <div class="content">
-                                        <h3 class="about__card-title">Data Analyst Intern</h3>
-                                        <h5><span class="icon solid fa-map-marker-alt"></span> Sydney</h5>
-                                        <p class="about__card-description">November 2023 - February 2024</p>
-                                        <ul>
-                                            <li>Collaborated with cross-functional teams and stakeholders, gathering use case documents to address project challenges and translating them into actionable data-driven tasks.</li>
-                                            <li>Understood data pipeline structures and retrieved necessary datasets from AWS S3 for efficient EDA, extraction, transformation, and manipulation using AWS Athena (SQL) and AWS Glue (Python).</li>
-                                            <li>Conducted A/B testing to evaluate ideas and analyze customer behavior, leading to key UX improvements. After optimizing the purchase button placement and introducing a guided multiple-choice selection before accessing PTE study options, new learner purchases increased by over 30%.</li>
-                                            <li>Developed predictive analytics to forecast customer purchase trends and analyzed results to generate prescriptive insights and strategic recommendations.</li>
-                                            <li>Developed predictive analytics models to forecast customer purchase trends and generated insights that helped adjust team targets, reducing training costs by 20% during off-peak periods. Additionally, designed and built Power BI dashboards that provided stakeholders with real-time insights into business performance.</li>                          
-                                        </ul>
-                                       
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
                        
                     </div>
                 </article>
@@ -466,10 +468,13 @@
 
             <div class="footer__container container grid">
                 <div class="footer__content">
-                    <a href="assets/BRIAN ONG CV.docx.pdf" class="footer__logo" download>
-                        <i class="ri-steering-line"></i> Download CV
+                    <a href="assets/BRIAN ONG.pdf" class="footer__logo" download>
+                        Download CV
                     </a>
                     <br>
+                    <span >
+                        &#169; Brian Ong
+                    </span>
                 </div>
 
                 <div class="footer__content"  id="certificates">
@@ -479,7 +484,13 @@
 
                     <ul class="footer__links">
                         <li>
-                            <a href="#" class="footer__link">Actuarial Job Simulation</a>    
+                            <a href="https://credentials.databricks.com/6a4d6f22-fc0e-416b-a2cc-51df338e3b36#acc.DfkOqvn8" class="footer__link">Databricks Lakehouse Fundamentals</a>
+                        </li>
+                        <li>
+                            <a href="https://credentials.databricks.com/128b2e30-1e89-459d-9f64-ad68bca2071b#acc.k8grnMCG" class="footer__link">AWS Databricks Platform Architect</a>
+                        </li>
+                        <li>
+                            <a href="https://credentials.databricks.com/1a8bff49-7a78-4348-8edc-9d08f3ba25a7#acc.CUK7DuTa" class="footer__link">Databricks Certified Data Analyst Associate</a>
                         </li>
                         <li>
                             <a href="#" class="footer__link">Data Science Job Simulation</a>
@@ -522,10 +533,6 @@
                     </ul>
                 </div>
             </div>
-
-            <span class="footer__copy">
-                &#169; Brian Ong
-            </span>
         </footer>
 
 
